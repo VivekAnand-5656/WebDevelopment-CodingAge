@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+        <center>
+            <form action="/submit_data">
+                <table border="1" cellspacing="0" cellpadding="10">
+                    <tr>
+                        <th> <label for="emId">Employee ID:</label></th>
+                        <td><input type="text" name="empId" required></td>
+                    </tr>
+                    <tr>
+                        <th><label for="name">Employee Name:</label></th>
+                        <td><input type="text" name="name" required></td>
+                    </tr>
+                    <tr>
+                        <th><label for="email">Enter Email</label></th>
+                        <td><input type="email" name="email" placeholder="Enter Email" required></td>
+                    </tr>
+                    <tr>
+                        <th><label for="password">Enter Password</label></th>
+                        <td><input type="password" name="password" maxlength="10" placeholder="Enter your password" required></td>
+                    </tr>
+                    <tr>
+                        <th><label for="address">Enter your Address</label></th>
+                        <td><textarea name="address" id="" placeholder="Enter your address" required rows="5"></textarea>
+                        </td>
+                    </tr>
+                    <tr>
+                        <th><label for="gender">Gender</label></th>
+                        <td>
+                            <label for="male">Male</label>
+                            <input type="radio" name="gender" id="gender"  required>
+                            <label for="female">Female</label>
+                            <input type="radio" name="gender" id="gender" required>
+                            <label for="other">Other</label>
+                            <input type="radio" name="gender" id="gender" required>
+                        </td>
+                    </tr>
+                    <tr>
+                        <th><label for="city">City</label></th>
+                        <td>
+                            <select name="city" id="city" required>
+                                <option value="deoghar" selected>Deoghar</option>
+                                <option value="patna">Patna</option>
+                                <option value="nalanda">Nalanda</option>
+                                <option value="dumka">Dumka</option>
+                            </select>
+                        </td>
+                    </tr>
+                    <tr>
+                        <th colspan="2">
+                            <button type="submit"><b>Submit</b></button>
+                            <button type="reset"><b>Reset</b></button>
+                        </th>
+                    </tr>
+                </table>
+    
+               
+            </form>
+        </center>
+</body>
+
+</html>

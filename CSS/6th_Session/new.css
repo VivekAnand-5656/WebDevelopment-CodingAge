@@ -1,0 +1,22 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    width:100%;
+    height:100%;
+}
+.container{
+    width:100%;
+    height:100%;
+    /* background-color: bisque; */
+    /* background-image:url(./back.jpg);
+    background-size: cover;
+    background-position:top;
+    background-repeat: no-repeat;
+        background-attachment: fixed; */
+
+    text-align: center;
+    background:skyblue url(https://img.freepik.com/free-vector/pitch-meeting-concept-illustration_114360-6000.jpg?uid=R134294801&ga=GA1.1.703529478.1743758644&semt=ais_hybrid&w=740) top center/cover no-repeat fixed; 
+}
