@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Employee</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+       <main>
+         <form action="" id="studentForm">
+            <label for="fullName">Full Name</label>
+            <input type="text" name="name" id="name" placeholder="Enter Full Name" required>
+            <label for="fatherName">Father's Name</label>
+            <input type="text" name="name" id="fatherName" placeholder="Enter Father's Name" required>
+            <label for="email">Email</label>
+            <input type="email" name="Email" id="email" placeholder="Enter Email" required>
+            <label for="phoneNumber">Phone Number</label>
+            <input type="number" name="number" id="phoneNumber" placeholder="Enter Phone Number" required>
+            <label for="date">Joining Date</label>
+            <input type="date" id="date" name="date" placeholder="Select Joining Date" required>
+             
+            <div class="btn">
+                <button id="sub" type="submit">Click to Add</button>
+                <button id="res" type="reset">Clear form</button>
+            </div>
+            <p id="warn"></p>
+            <p id="msg">All fields are required. Please double-check before submitting</p>
+           
+        </form>
+        <div class="box">
+            <table class="tab" id="tableData">
+                <thead>
+                    <tr>
+                        <th>Sr No</th>
+                        <th>Name</th>
+                        <th>Father Name</th>
+                        <th>Email</th>
+                        <th>Phone Number</th>
+                        <th>Joining Date</th>
+                    </tr>
+                </thead>
+                <tbody id="t-body" class="tbbody">
+                   
+                </tbody>
+            </table>
+        </div>
+       </main>
+
+
+    <!-- JS -->
+     <script src="app.js"></script>
+</body>
+</html>

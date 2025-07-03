@@ -1,0 +1,105 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    width: 100%;
+    height: 100%;
+}
+main{
+    width: 100%;
+    height: 100%;
+}
+form{
+    width: 50vw;
+    /* height: 100%; */
+    border:2px solid #010148;
+    display: flex;
+    flex-direction: column;
+    border-radius:5px;
+    padding:1rem;
+    margin: auto;
+}
+form input{
+    width: 200px;
+    height:5%;
+    padding:1rem;
+    border-radius:3px;
+    border:1px solid #f35900;
+    margin-bottom:10px;
+}
+form select{
+    width: 20%;
+    height:30px;
+    font-weight:600;
+    /* padding:2px; */
+    border-radius:3px;
+    border:1px solid #f35900;
+    margin-bottom: 5px;
+}
+.btn{
+    width: 50%;
+    /* height:50px; */
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    gap:1rem;
+}
+.btn button{
+    width: 10vw;
+    height: 40px;
+    font-weight:600;
+    border:2px solid #f35900;
+    border-radius:5px;
+    cursor:pointer;
+    transition:all ease-in-out 0.3s;
+}
+.btn button:nth-child(1){
+    background:#010148;
+    color:#fff; 
+    border: none;
+}
+.btn button:nth-child(1):hover{
+    background:#f35900;
+    border:2px solid #010148;
+    color:#fff; 
+}
+.btn button:nth-child(2){
+    background:#f35900;
+    color:#fff;
+    border:none;
+}
+.btn button:nth-child(2):hover{
+    background:#010148;
+    color:#fff;
+    border:2px solid #f35900;
+}
+#warn{
+    color:red;
+} 
+
+/* Table */
+.box{
+    width: 100%;
+    height: 100%;
+    margin-top: 20px; 
+}
+.tab{
+    /* width: 100%; */
+    /* height: 100%; */
+    margin: auto;
+    border:1px solid #010148;
+}
+.tab tr th{ 
+    border-right:1px solid #010148;
+    padding:0.5rem;
+    color:#f35900;
+}
+.tab tr td{
+    border-top:1px solid #010148;
+    border-right:1px solid #010148;
+    padding:0.5rem;
+    text-align: center;
+    font-size:0.9rem;
+}

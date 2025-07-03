@@ -53,12 +53,12 @@
 // // console.log(num == str); // check only value true
 // // console.log(num === str); // check data type and value Output:- false
 
- 
+
 // // function fun(name = "Greet"){
 // //     console.log(`Hello ${name}`);
 // // }
 // // fun("Vivek");
- 
+
 // // let arr = Array.of(10,50,20,60);
 // // console.log(arr);
 
@@ -196,7 +196,7 @@
 //             }
 //         }
 //     }
-    
+
 // })
 // secondMax();
 
@@ -205,15 +205,15 @@
 // console.log(flatArr);    // Output: [1, 2, 3, 4, 5, 6]
 
 // Access
-let obj = {
-    names : "Vivek Anand",
-    age : 21 
-} 
-console.log(obj["names"]);
+// let obj = {
+//     names : "Vivek Anand",
+//     age : 21 
+// } 
+// console.log(obj["names"]);
 
-// Modify 
-obj["age"] = 22;
-console.log(obj);
+// // Modify 
+// obj["age"] = 22;
+// console.log(obj);
 
 
 // let ob = new Object();
@@ -241,5 +241,28 @@ console.log(obj);
 //     return maxNum;
 // })
 // console.log("Largest Element: "+largest());
+
+
+
+
+function calculate() {
+    let num1 = document.querySelector("#number").value;
+    let num2 = document.querySelector("#number2").value;
+    let sym = document.querySelector("#sym").value;
+    switch(sym){
+        case '+':
+            let add = Number(num1) + Number(num2);
+            document.getElementById("result").innerText = "Sum: "+add;
+            break;
+        case '-':
+            let sub = Number(num1) - Number(num2);
+            document.getElementById("result").innerText = "Sum: "+sub;
+            break;
+        default:
+            alert("Wrong input");
+    }
+    
+    
+}
 
 

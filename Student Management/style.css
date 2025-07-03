@@ -1,0 +1,30 @@
+.container{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+main{
+    width:calc(100vw - 17vw); 
+    margin-left:17vw;
+    height: 100vh; 
+    background-image:url(./images/school.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.box{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    background:#ffffff3c;
+}
+.box h1{
+    font-size:3em;
+}
+.box h1 span{
+    color:#f35900;
+}
